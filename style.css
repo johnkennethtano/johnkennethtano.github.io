@@ -1,0 +1,172 @@
+body {
+	background: #dd4c4c;
+	font-family: "Monaco", "Courier New", monospace;
+	padding: 20px;
+}
+
+.header {
+      	padding: 25px;
+  	text-align: center;
+  	background: white;
+  	margin-top: 15px;
+}
+
+.header {
+  	font-size: 1px;
+}
+
+.main {
+	padding: 20px;
+  	text-align: center;
+  	background: white;
+  	margin-top: 10px;
+}
+
+.sub {
+	padding: 20px;
+  	background: rgb(230, 134, 134);
+  	margin-top: 10px;
+}
+
+.img {
+	float:center;
+	clear:right;
+}
+
+.img-hover-zoom {
+	padding: 40px;
+  	overflow: hidden;
+}
+
+.img-hover-zoom img {
+  	transition: transform 4s ease;
+}
+
+.img-hover-zoom:hover img {
+  	transform: scale(1.5);
+}
+
+.image {
+	height: 600px;
+	width: 350px;
+}
+
+#navbar ul {	
+	padding: 5px;
+	list-style-type: none;
+	font-family: Roboto;
+	text-align: center;
+	background-color: #000;
+	margin: 10px;
+}
+
+#navbar ul li {	
+	display: inline;
+	text-align: center;
+}
+
+#navbar ul li a {	
+	text-decoration: none;
+	text-align: center;
+	padding: .2em 1em;
+	color: #fff;
+	background-color: #000;
+}
+
+#navbar ul li a:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+.sidebarimage {
+	height: 200px;
+	width: 300px;
+	float: right;
+	border-radius: 5px;
+	margin-left: 20px; margin-right: 20px;
+	margin-top: 20px; margin-bottom: 20px;
+	clear:both;
+	opacity: 1.0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.sidebarimage:hover {
+	opacity: 0.5;
+}
+
+h2 {
+	font-family: 'Times New Roman', Times, serif;
+	padding: 10px;
+	color: white;
+	background-color: black;
+	position: fixed;
+}
+
+h1 {
+	border-style: solid;
+	border-width: medium;
+	margin: 20px;
+	padding: 20px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h5 {
+	font-family: Roboto;
+}
+
+h3 {
+	text-align: center;
+	padding: 5px;
+}
+
+h3 {
+	font-size: 20px;
+	color: white;
+	font-family: Roboto;
+	background-color: black;
+	margin-left: 250px; margin-right: 250px;
+}
+
+h4 {
+	font-size: 13px;
+	border-style: dotted;
+	padding: 10px;
+	margin-left: 250px; margin-right: 250px;;
+}
+
+p {
+	font-size: 10;
+	text-indent: 50px;
+	font-weight: lighter;
+	line-height: 1.8;
+	padding: 40px;
+}
+
+.footer {
+  	padding: 20px;
+  	text-align: center;
+	font-family: Roboto;
+	color: black;
+	background: #383838;
+  	margin-top: 10px;
+}
+
+.footer ul li {	
+	display: inline;
+	text-align: center;
+}
+
+.footer ul li a {	
+	text-decoration: none;
+	text-align: center;
+	padding: .2em 1em;
+	color: gray;
+}
+
+.footer ul li a:hover {
+	color: #fff;
+}
+}
